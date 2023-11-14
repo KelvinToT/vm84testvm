@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "vm84testvm"
+  description: This a GCP VM
+spec:
+  type: GCP
+  owner: user:guest
+  lifecycle: experimental
